@@ -1,0 +1,754 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");*/
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1440px;
+    height: 101px;
+    background-color: #d9d9d9;
+    margin: 0 auto;
+}
+
+.aside {
+    width: 203px;
+    height: 1302px;
+    margin-top: 40px;
+    background-color: #d9d9d9;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-content1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.content_head {
+    width: 487px;
+    height: 61px;
+    background-color: #d9d9d9;
+    margin-top: 30px;
+    margin-right: 48px;
+}
+
+.flexContent {
+    display: flex;
+    justify-content: space-between;
+    min-width: 1022px;
+    margin: 10px 87px;
+    height: max-content;
+}
+
+.main-line {
+    width: 1022px;
+    height: 3px;
+    background: #d9d9d9;
+    top: 200px;
+    position: relative;
+}
+
+.block_line {
+    min-width: 1022px;
+    height: 168px;
+    background-color: #d9d9d9;
+    margin: 405px;
+    margin-left: -1110px;
+}
+
+.main_form {
+    position: relative;
+    margin-left: -271px;
+    top: -90px;
+}
+
+.par_line {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #000000;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.par_comment {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 129px;
+}
+
+.comments .sort {
+    vertical-align: bottom;
+}
+
+.comments {
+    margin-top: 700px;
+    width: 1022px;
+    /* outline: 1px solid black; */
+    margin-left: -1155px;
+}
+
+    .comments .menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 21px;
+    }
+
+        .comments .menu > * {
+            margin-right: 55px;
+        }
+
+        .comments .menu button {
+            width: 21px;
+            height: 21px;
+        }
+
+        .comments .menu img {
+            width: 21px;
+            height: 21px;
+            margin-left: 9px;
+        }
+
+.counter-comments {
+    display: flex;
+    text-decoration: underline;
+}
+
+.counter {
+    margin-left: 13px;
+}
+
+.num_comment {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+option {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.sort {
+    display: flex;
+}
+
+.item_favorites {
+    display: contents;
+}
+
+.block_comments {
+    position: relative;
+    width: 1022px;
+    top: 700px;
+    margin-left: -1154px;
+    outline: 1px solid blue;
+}
+
+.block-input {
+    width: 1022px;
+}
+
+.ava {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.user_name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #122ac0;
+    left: 25px;
+    position: relative;
+}
+
+.max_symbol {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.select-menu {
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #000000;
+    opacity: 0.4;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.img_1 {
+    cursor: pointer;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+.user {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #122ac0;
+    margin-top: 0;
+}
+
+.max-symbol {
+    font-family: "Inter";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.4;
+    margin-top: 0;
+}
+
+.main-comment {
+    width: 688px;
+}
+
+.input_comments {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main-comment div {
+    display: flex;
+    justify-content: space-between;
+    /* align-self: center; */
+}
+
+.main-comment textarea {
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 21px;
+    height: 61px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    border: gray;
+    overflow: hidden;
+}
+
+.button {
+    width: 213px;
+    height: 61px;
+    background-color: #a1a1a1;
+    display: flex;
+    align-self: flex-end;
+}
+
+    .button p {
+        margin: auto;
+    }
+
+.err_sms {
+    color: red;
+    visibility: hidden;
+}
+
+.butt-main {
+    margin-top: -12px;
+    cursor: pointer;
+}
+
+.select-menu option {
+    border: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #000000;
+    opacity: 0.4;
+}
+
+::placeholder {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.4;
+    border: 0px;
+}
+
+.input_comments_child {
+    /* justify-content: flex-start !important; */
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* !!! */
+.child_div {
+    justify-content: flex-start !important;
+    align-items: flex-end;
+    position: relative;
+    top: -38px;
+    right: -84px;
+}
+
+.avatar_child {
+    margin-right: 40px;
+}
+
+.Date-time {
+    margin-left: 15px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.4;
+    margin-bottom: 18px;
+}
+
+.child-comment {
+    width: 915px;
+    margin-top: -20px;
+    margin-left: 85px;
+}
+
+.interface-div {
+    margin-top: 15px;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-left: 85px;
+    align-items: center;
+}
+
+.num-raiting {
+    align-items: center;
+}
+
+.favor-comm .favor-comm-resp {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.answer-comm {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.minus {
+    cursor: pointer;
+}
+
+.plus {
+    cursor: pointer;
+}
+
+.heart {
+    cursor: pointer;
+}
+
+.arrow-left {
+    cursor: pointer;
+}
+
+.response_main-comments {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input_comments {
+    width: 98%;
+    margin-left: 23px;
+}
+
+.response_input_comments {
+    margin-top: 30px;
+    margin-left: 64px;
+}
+
+.responseText {
+    width: 760px !important;
+}
+
+.response_input_comments .interface-div {
+    margin-left: 110px;
+    width: 37%;
+}
+
+.send {
+    width: 50px;
+    height: 50px;
+    margin-left: 700px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.response_Date-time {
+    position: relative;
+    right: 359px;
+    top: 3px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.4;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 5200px) {
+    html {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .main {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .header {
+        width: 320px;
+        height: 68px;
+        background-color: #d9d9d9;
+        margin: 0 auto;
+    }
+
+    .main-aside {
+        display: none;
+    }
+
+    .container-content1 {
+        display: none;
+    }
+
+    .flexContent {
+        display: flex;
+        justify-content: space-between;
+        min-width: 320px;
+        height: max-content;
+    }
+
+    .content_head {
+        width: 300px;
+        height: 61px;
+        background-color: #d9d9d9;
+        margin-top: 30px;
+        margin-right: 48px;
+    }
+
+    .container-content {
+        width: 320px;
+        display: flex;
+        /* justify-content: flex-start; */
+        position: relative;
+        left: -77px;
+    }
+
+        .container-content :last-child {
+            display: none;
+        }
+
+        .container-content :first-child {
+            display: none;
+        }
+
+    .block_line {
+        min-width: 300px;
+        height: 132px;
+        background-color: #d9d9d9;
+        margin: 239px;
+        margin-left: -484px;
+    }
+
+    .main-line {
+        width: 300px;
+        height: 3px;
+        background: #d9d9d9;
+        top: 175px;
+        position: relative;
+    }
+
+    .comments {
+        margin: 0 auto;
+        margin-top: 500px;
+        margin-left: -267px;
+    }
+
+    .menu {
+        flex-direction: column;
+        position: relative;
+        width: 320px;
+    }
+
+    .comments .menu {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 21px;
+    }
+
+    .comments .menu {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 21px;
+        flex-direction: column;
+        position: relative;
+        width: 320px;
+        align-items: start;
+    }
+
+    .item_favorites {
+        display: contents;
+        display: flex;
+        align-items: center;
+        position: relative;
+        top: -34px;
+        right: -200px;
+    }
+
+    .select-menu {
+        width: min-content;
+        position: relative;
+        /* left: -10px; */
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration-line: underline;
+        color: #000000;
+        opacity: 0.4;
+    }
+
+    .par_line {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration-line: underline;
+        color: #000000;
+        opacity: 0.4;
+    }
+
+    .comments .menu img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .input_comments {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .user {
+        position: relative;
+        top: -37px;
+        right: -97px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #122ac0;
+        margin-left: -35px;
+    }
+
+    text-area {
+        width: 300px;
+        height: 287px;
+    }
+
+    /* .max-symbol {
+         position: relative;
+         left: -392px;
+     } */
+
+    .butt-main {
+        display: flex;
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+        margin-top: 15px;
+    }
+
+    .button {
+        width: 300px;
+    }
+
+    .err_sms {
+        text-align: center;
+    }
+
+    .Date-time {
+        margin-left: 10px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+        color: #000000;
+        opacity: 0.4;
+        margin-bottom: 18px;
+        position: relative;
+        width: fit-content;
+        top: -38px;
+        right: -146px;
+        margin-left: -44px;
+    }
+
+    .main-comment textarea {
+        width: 300px;
+        height: 287px;
+    }
+
+    .main-comment {
+        width: 300px;
+    }
+
+    .child-comment {
+        word-wrap: break-word;
+        width: 300px;
+        margin-left: 0px;
+    }
+
+    .answer-comm {
+        font-size: 16px;
+    }
+
+    .favor-comm .favor-comm-resp {
+        font-size: 16px;
+    }
+
+    .interface-div {
+        align-items: center;
+        width: 300px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .minus {
+        position: relative;
+        top: 25px;
+        left: 20px;
+    }
+
+    .plus {
+        position: relative;
+        top: -27px;
+        left: -20px;
+    }
+
+    .child_div {
+        align-items: flex-end;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    .response_input_comments {
+        margin: 0 auto;
+    }
+
+    .responseText {
+        width: 300px !important;
+        height: 287px !important;
+    }
+
+    .response_Date-time {
+        position: static;
+        margin-top: -33px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        opacity: 0.4;
+    }
+
+    .response_input_comments .interface-div {
+        width: 194px;
+        margin-left: 0px;
+    }
+}

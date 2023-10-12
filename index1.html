@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Комментирование TypeScript</title>
+    <link rel="stylesheet" href="style_smartphones.css" />   <!-- Подключаем стиль, скрипт -->
+    <script src="classComment.js"></script>
+    <script src="classResponse.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body onload="randomName()">
+    <!-- Генерация случайного имени при загрузке страницы -->
+
+    <main class="main">
+        <header>
+            <div class="header"></div>
+        </header>
+
+        <div class="container">
+            <aside class="main-aside">
+                <div class="aside"></div>
+            </aside>
+
+            <div class="flexContent">
+                <div class="container-content1">
+                    <div class="content_head"></div>
+                    <div class="content_head"></div>
+                    <div class="content_head"></div>
+                    <div class="content_head"></div>
+                </div>
+                <div class="container-content">
+                    <div class="content_head"></div>
+                    <div class="content_head"></div>
+                    <div class="content_head"></div>
+                    <div class="content_head"></div>
+                </div>
+            </div>
+
+            <div class="block_line">
+                <div class="main-block"></div>
+                <div class="main-line"></div>
+            </div>
+
+            <div class="main_form">
+                <form class="comments">
+                    <div class="menu">
+                        <div class="counter-comments">
+                            <p class="par_comment">Комментарии</p>
+                            <div class="counter">
+                                <p class="num_comment">(0)</p>
+                            </div>
+                        </div>
+
+                        <div class="sort">
+                            <select class="select-menu" id="id_select-menu" onchange="sorting(this)">
+                                <!-- Замечательное слово this фактически передаёт нам значение -->
+                                <option value="by_number_of_ratings" selected>По количеству оценок</option>
+                                <option value="by_date_up">По дате (вверх)</option>
+                                <option value="by_date_down">По дате (вниз)</option>
+                                <option value="by_relevance">По актуальности</option>
+                                <option value="by_number_of_answers">По количеству ответов</option>
+                            </select>
+
+                            <div class="arrow_img">
+                                <img class="img_1" src="img/Arrow%201.png" alt="arrow" />
+                            </div>
+                        </div>
+
+                        <div class="item_favorites">
+                            <p class="par_line">Избранное</p>
+                            <img class="img_2" src="img/izbr.png" alt="favorites" />
+                        </div>
+                    </div>
+                    <div class="par_line"><a href="index.html" style="position: relative; left: 10%">Переключить на десктопный вид</a></div>
+                    <div class="sections">
+                        <section class="input_comments">
+                            <div>
+                                <img class="avatar"
+                                     src="https://loremflickr.com/200/300"
+                                     alt="avatar" />                                                                                                                <!-- Аватар самого первого пользователя -->
+                            </div>
+                            <div class="main-comment">
+                                <div>
+                                    <p class="user">Алексей Никифоров</p>
+                                    <p class="max-symbol">Макс. 1000 символов</p>
+                                </div>
+                                <textarea oninput="check_length(this)"
+                                          placeholder="Введите текст сообщения..."></textarea>                                                                                          <!-- Проверка длины строки на лету -->
+                            </div>
+                            <div onclick="saveComment()" class="butt-main">
+                                <!-- Событие нажатия на блок div, который выступает в роли кнопки -->
+                                <p class="err_sms">Слишком длинное сообщение</p>        <!-- Здесь выводится ошибка:  слишком большая длина сообщения -->
+                                <div class="button">
+                                    <p>Отправить</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
